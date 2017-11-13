@@ -1,0 +1,11 @@
+import java.util.UUID;
+
+public class PersonalAccount extends BankAccount{
+
+	// *** Constructor ***	
+		public PersonalAccount() {
+			this.accountNumber = (UUID.randomUUID().toString().substring(0,6));
+			this.balance = 0;
+			this.accountType = "Personal Account";	
+		}
+}

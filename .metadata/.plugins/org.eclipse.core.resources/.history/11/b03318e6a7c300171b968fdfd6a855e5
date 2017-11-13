@@ -1,0 +1,7 @@
+
+public interface BankOperations {
+	
+	public double withdrawMoney(double amount);
+	public double depositMoney(double amount);
+	
+}

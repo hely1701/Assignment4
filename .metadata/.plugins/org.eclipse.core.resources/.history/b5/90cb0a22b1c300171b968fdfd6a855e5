@@ -1,0 +1,11 @@
+import java.util.UUID;
+
+public class SavingAccount extends BankAccount {
+
+	// *** Constructor ***	
+			public SavingAccount() {
+				this.accountNumber = (UUID.randomUUID().toString().substring(0,6));
+				this.balance = 0;
+				this.accountType = "Saving Account";	
+			}
+}

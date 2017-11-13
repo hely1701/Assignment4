@@ -1,0 +1,22 @@
+/***
+ * Interface till inlämningsuppgift 4
+ * 
+ * @author Anna-Maja Lithner & Heikki Lyhde
+ * @version 1.0
+ * @date 2017-11-08
+ * 
+ */
+
+package com.assignment_4.interfaces;
+
+public interface BankOperations {
+	/***
+	 * Metoder för insättning och uttag av pengar från/till ett bankkonto.
+	 * implementeras i klassen BankAccount
+	 * @param amount
+	 */
+	
+	public void withdrawMoney(double amount);
+	public void depositMoney(double amount);
+	
+}

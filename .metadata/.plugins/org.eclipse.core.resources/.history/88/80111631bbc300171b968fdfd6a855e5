@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class BankCustomer extends Human{
+
+	// *** Attributes ***
+	private ArrayList BankAccount;
+	
+	// *** Constructor ***
+	
+}

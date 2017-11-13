@@ -1,0 +1,13 @@
+
+public class Human {
+
+	
+	// *** Attributes ***
+	private String name = "";
+	private int age = 0;
+	
+	// *** Constructor ***
+	public Human (String name, int age) {
+		//TODO
+	}
+}

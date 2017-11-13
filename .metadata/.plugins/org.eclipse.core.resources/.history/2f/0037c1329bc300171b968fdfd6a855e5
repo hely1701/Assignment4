@@ -1,0 +1,6 @@
+
+public interface BankOperations {
+	
+	public double (double amount);
+
+}

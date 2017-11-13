@@ -1,0 +1,17 @@
+
+public class BankAccount implements BankOperations {
+
+	@Override
+	public double withdrawMoney(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double depositMoney(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+
+public class BankCustomer extends Human{
+
+	// *** Attributes ***
+	private ArrayList <BankAccount> customerAccounts;
+	
+		
+	// *** Constructor ***
+	
+	public BankCustomer(String name, int age, ArrayList<BankAccount> customerAccounts) {
+		super(name, age);
+		this.customerAccounts = customerAccounts;
+	}
+
+
+	// *** Getters & Setters ***
+	public ArrayList<BankAccount> getCustomerAccounts() {
+		return customerAccounts;
+	}
+
+
+	public void setCustomerAccounts(ArrayList<BankAccount> customerAccounts) {
+		this.customerAccounts = customerAccounts;
+	}
+	
+	
+	
+	
+	
+}
